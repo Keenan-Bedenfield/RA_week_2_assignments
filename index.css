@@ -1,0 +1,119 @@
+* {
+    padding: 1px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Noto_Serif", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.logo-image {background-color: rgb(236, 161, 75);
+    width:10%;
+    margin: 2px 10px 2px 10px;
+    float: left;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 14pt;
+}
+
+h2 {
+    font-size: 10pt;
+    color: aliceblue;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto, auto;
+}
+
+ul a {
+    color: bisque;
+    text-decoration: none;
+    
+}
+
+.our-services{
+    width: 500px;
+    display: grid;
+}
+
+p, h3 {
+    color: aliceblue;
+    gap:2em;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+}
+
+
+.navLinks {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+div a img {
+    width: 500px;
+}
+
+#services_section {
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.service-offering-item {
+    padding-top: 55px;
+}
+
+.qr_text_container{
+    background-color: rgb(128, 126, 126);
+    width: 550px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 70%;
+}
+
+#services_section{
+    justify-content:space-evenly;
+    font-family: "Titillium", Helvetica Neue, sans-serif;
+    display:grid;
+    
+
+  
+}
+.pricing-button{
+
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.pricing-button:hover{
+    background-color:rgb(181, 179, 179);
+    cursor: pointer;
+}
+
+.pricing-button:active{
+    background-color:rgb(216, 155, 86);
+
+}
+
+.site_footer {
+    width: 100%;
+    height: 75px;
+    margin-top: 20px;
+    background-color: rgba(221, 159, 89, 0.894);
+    text-align: center;
+}
+
+footer {
+    margin: 5px 10px 5px 10px;
+}
+
+
