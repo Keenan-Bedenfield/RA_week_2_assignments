@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #61a0af;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 18px;
+    background-image:  url(/logo\ 2021-05-05\ at\ 7.47.41\ AM\ copy.jpg);
+    background-size: cover;
+    filter: brightness(3.8);
+    
+  }
+  
+  h1, p {
+    font-family: "anek_devanagari",Arial, Helvetica, sans-serif; 
+    margin: 1.2em auto;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+    
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    letter-spacing: 2px;
+    margin: 1.1em auto;
+  }
+
+  .frequency {
+    font-family: "anek_devanagari",Arial, Helvetica, sans-serif; 
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #3c3a3a;
+    border: 1px solid #a67a21;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    
+  }
+  
+  input[type="submit"] {
+    color: black;
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #301e01;
+    border-color: rgb(3, 3, 3);
+    min-width: 300px;
+    text-decoration: none;
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(62, 48, 10);
+  }
+
+  .terms-and-conditions, a {
+    text-decoration: none;
+  }
+
+  ::placeholder {
+    color: #201810;
+  }
+
+  
